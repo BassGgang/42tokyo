@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kmatsuna <kmatsuna@student.42.fr>          +#+  +:+       +#+        */
+/*   By: matsunagakenta <matsunagakenta@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/21 18:28:06 by kmatsuna          #+#    #+#             */
-/*   Updated: 2024/04/21 20:58:48 by kmatsuna         ###   ########.fr       */
+/*   Updated: 2025/01/26 19:20:41 by matsunagake      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,20 +22,20 @@ void	*ft_memmove(void *dest, const void *src, size_t len)
 	d = dest;
 	s = src;
 	i = 0;
-	if (s < d)
-	{
-		while (len > 0)
-		{
-			d[len - 1] = s[len - 1];
-			len--;
-		}
-	}
-	else if (s > d)
+	if (s > d)
 	{
 		while (len > 0)
 		{
 			d[i] = s[i];
 			i++;
+			len--;
+		}
+	}
+	else if (s < d)
+	{
+		while (len > 0)
+		{
+			d[len - 1] = s[len - 1];
 			len--;
 		}
 	}

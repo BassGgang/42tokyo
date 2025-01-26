@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kmatsuna <kmatsuna@student.42.fr>          +#+  +:+       +#+        */
+/*   By: matsunagakenta <matsunagakenta@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/29 20:55:03 by kmatsuna          #+#    #+#             */
-/*   Updated: 2024/06/26 19:41:17 by kmatsuna         ###   ########.fr       */
+/*   Updated: 2025/01/26 19:02:49 by matsunagake      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

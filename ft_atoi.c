@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kmatsuna <kmatsuna@student.42.fr>          +#+  +:+       +#+        */
+/*   By: matsunagakenta <matsunagakenta@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/07 13:06:08 by jnishimu          #+#    #+#             */
-/*   Updated: 2024/06/09 20:41:09 by kmatsuna         ###   ########.fr       */
+/*   Updated: 2025/01/26 18:48:38 by matsunagake      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
